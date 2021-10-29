@@ -20,7 +20,7 @@ function increment()
 }
 function StartTimer()
 {
-    var audio = new Audio('Audios/Makani.mp3');
+    var audio = new Audio('Makani.mp3');
 audio.play();
    setTimer = setInterval(increment,10)
 }
